@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation Build Artifacts
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.pdf
+*.aux
+*.log
+*.out
+*.toc
+
+# Models and Data (Optional: keep if you want them in git, but usually model.pkl is large)
+# model.pkl
+# data/landmarks.csv
+
+# Agent/Local Config
+.claude/
+.openclaude/
+.aider*
+conductor/
+fetch_doodles.py
+
+# Previous Report Drafts (Keeping the final Encyclopedia only)
+Codebase_Explanation.pdf
+Generated_Report.*
+Report.*
+report.md
+SignBridge_Technical_Report.md
+Sample_report_template.pdf
+sample.tex
+Instructions.md
+Memory.md
